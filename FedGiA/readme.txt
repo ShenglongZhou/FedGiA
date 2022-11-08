@@ -1,9 +1,7 @@
-To implement this solver, please 
-
-run demonXXXX.m to solve different problems
+To implement this solver, please run demonXXXX.m to see how it works
 
 This source code contains the algorithm described in:
 
-"Shenglong Zhou,  Geoffrey Ye Li,  An Efficient Hybrid Algorithm for Federated Learning, arXiv:2205.01438, 2022." 		 
+"Shenglong Zhou and  Geoffrey Ye Li,  An Efficient Hybrid Algorithm for Federated Learning, arXiv:2205.01438, 2022." 		 
 
 Please give credits to this paper if you use the code for your research.
