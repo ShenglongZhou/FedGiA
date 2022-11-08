@@ -1,7 +1,7 @@
 # FedGiA
 This Matlab package solves federated learning problems via gradient descent and inexact ADMM
 
-To implement this solver, please run demonXXXX.m to see how it works
+To implement this solver, please run **demonXXXX.m** to see how it works
 
 This source code contains the algorithm described in:
 
