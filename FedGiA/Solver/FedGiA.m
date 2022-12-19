@@ -109,6 +109,10 @@ for iter = 0 : maxit
         M       = randperm(m);
         M       = sort(M(1:m0)); 
     end
+    
+    if iter == 0
+       tol = min(tol,0.1*err);
+    end 
      
     objx(iter+1) = fx; 
     errx(iter+1) = err;      
