@@ -3,7 +3,7 @@ addpath(genpath(pwd));
 
 t     = 1;
 Prob  = {'LinReg','LogReg','NCLogReg'};
-m     = 100;
+m     = 128;
 prob  = Prob{t};
 
 switch prob 
@@ -21,12 +21,6 @@ end
 [A,b,dim,n] = DataGeneration(prob,m,n,var1,var2); 
  
 k0          = 10;
-pars.r0     = 1; % increase this value if the solver diverges 
-
-pars.optH   = 'diag';
-out1        = FedGiA(dim,n,A,b,k0,prob,pars);   
-pt1         = PlotObj(out1.objx);
- 
-pars.optH   = 'gram';
-out2        = FedGiA(dim,n,A,b,k0,prob,pars);   
-pt2         = PlotObj(out2.objx);
+pars.r0     = 1;      % increase this value if the solver diverges  
+out         = FedGiA(dim,n,A,b,k0,prob,pars);   
+PlotObj(out.objx); 
