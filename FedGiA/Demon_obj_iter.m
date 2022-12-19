@@ -1,7 +1,6 @@
 clc; clear; close all;
 addpath(genpath(pwd));
  
- 
 t     = 3;
 Prob  = {'LinReg','LogReg','NCLogReg'};
 m     = 128;
@@ -17,7 +16,6 @@ switch prob
         var1    = load('toxicity.mat').X; 
         var2    = load('toxicityclass.mat').y; 
         n       = size(var1,2);  
-
 end  
 
 [A,b,dim,n] = DataGeneration(prob,m,n,var1,var2); 
