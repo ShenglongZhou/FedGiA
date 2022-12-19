@@ -120,7 +120,7 @@ for iter = 0 : maxit
     fprintf(' Communication at iter = %4d %9.4f   %9.3e  %6.3fsec\n',...
               iter, fx, err, toc(t0)); 
     end     
-    if err < tol && mod(iter,1)==0; break;  end
+    if err <= tol && mod(iter,1)==0; break;  end
         
     for i   = 1 : m 
         if  ismember(i,M)           
