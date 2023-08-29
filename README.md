@@ -5,6 +5,6 @@ To implement this solver, please run **demonXXXX.m** to see how it works
 
 This source code contains the algorithm described in:
 
-*Shenglong Zhou and Geoffrey Ye Li,  An Efficient Hybrid Algorithm for Federated Learning, [arXiv:2205.01438](https://arxiv.org/abs/2205.01438), 2022.* 		 
+*Shenglong Zhou and Geoffrey Ye Li, FedGiA: An efficient hybrid algorithm for federated learning, IEEE Transactions on Signal Processing, 71, 1493-1508, 2023.* 		 
 
 Please give credits to this paper if you use the code for your research.
