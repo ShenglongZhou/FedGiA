@@ -7,4 +7,4 @@ This source code contains the algorithm described in:
 
 *Shenglong Zhou and Geoffrey Ye Li, FedGiA: An efficient hybrid algorithm for federated learning, IEEE Transactions on Signal Processing, 71, 1493-1508, 2023.* 		 
 
-Please give credits to this paper if you use the code for your research.
+Please credit this paper if you use the code for your research.
